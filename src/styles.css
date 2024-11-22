@@ -1,3 +1,55 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .h2 {
+    @apply mb-4 text-4xl font-light
+  }
+  .h3 {
+    @apply mb-2 text-sm font-semibold uppercase
+  }
+  .section {
+    @apply px-8 py-6 scroll-mt-8
+  }
+  .subsection {
+    @apply mb-6
+  }
+  .list {
+    @apply list-disc pl-5
+  }
+  .caption {
+    @apply w-full mt-2 pr-4 text-right text-sm font-semibold
+  }
+
+  .carousel-container {
+    @apply flex items-stretch -mx-8 px-8 pb-4 overflow-x-auto
+  }
+  .carousel-text-item {
+    @apply h-full w-72 p-4 rounded-3xl overflow-hidden shadow-md
+  }
+  .carousel-image-item {
+    @apply block w-[calc(100vw-4rem)] max-w-[430px] aspect-square rounded-3xl overflow-hidden shadow-md
+  }
+
+  .side-by-side-container {
+    @apply w-[100vw] max-w-5xl -ml-8 overflow-x-hidden scroll-smooth
+  }
+  .side-by-side-header {
+    @apply absolute flex flex-row justify-between px-8 w-[100vw] max-w-5xl
+  }
+  .side-by-side-content {
+    @apply flex flex-row flex-nowrap
+  }
+  .side-by-side-item {
+    @apply min-w-full max-w-5xl mt-8 px-8 scroll-mt-24
+  }
+
+  .switch-bg {
+    @apply inline-flex text-sm font-semibold bg-slate-200 rounded-full overflow-hidden
+  }
+
+  .switch-item {
+    @apply block rounded-full text-gray-900 p-1 px-4 peer-checked:shadow-md peer-checked:bg-slate-800 peer-checked:text-white
+  }
+}

@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="scroll-smooth">
+<html class="scroll-smooth bg-slate-600">
 
 <head>
   <meta charset="UTF-8">
@@ -7,24 +7,342 @@
   <link href="./styles.css" rel="stylesheet">
 </head>
 
-<body class="pt-9 text-gray-500 font-light font-sans scroll">
-  <nav class="flex z-20 justify-around shadow-md fixed top-0 left-0 right-0 p-2 bg-white">
-    <a class="text-sm font-semibold uppercase" href="#our-home">Our Home</a>
-    <a class="text-sm font-semibold uppercase" href="#the-cats">The Cats</a>
-    <a class="text-sm font-semibold uppercase" href="#shopping">Shopping</a>
-    <a class="text-sm font-semibold uppercase" href="#restaurants">Restaurants</a>
+<body
+  class="text-gray-500 font-light font-sans mx-auto max-w-5xl shadow-lg bg-white overflow-x-hidden">
+  <nav
+    class="flex justify-around sm:justify-start shadow-md fixed top-0 left-0 right-0 p-2 bg-white z-10">
+    <a class="mx-2 text-sm font-semibold uppercase" href="#our-home">Home</a>
+    <a class="mx-2 text-sm font-semibold uppercase" href="#the-cats">Cats</a>
+    <a class="mx-2 text-sm font-semibold uppercase" href="#logistics">Logistics</a>
+    <a class="mx-2 text-sm font-semibold uppercase text-red-600 sm:ml-auto"
+      href="#emergency">Emergency
+      ✚</a>
   </nav>
 
-  <div class="h-60 mb-8 p-8 bg-[url('https://placecats.com/430/240')] bg-cover" id="header">
-    <h1 class="text-5xl font-normal text-white">Welcome</h1>
+  <div
+    class="flex h-80 p-4 mb-4 bg-[url('https://catsitter-guide.s3.eu-north-1.amazonaws.com/DSC06702.jpeg')] bg-cover bg-center"
+    id="header">
+    <h1 class="text-5xl font-thin tracking-wide text-white mb-0 self-end">Welcome</h1>
   </div>
 
-  <section class="p-8 pt-6 scroll-mt-8" id="our-home">
-    <h2 class="mb-4 text-4xl font-light">Our Home</h2>
+  <section class="section" id="our-home">
+    <h2 class="h2">Our Home</h2>
 
-    <section class="mb-4">
-      <h3 class="mb-1 text-sm font-semibold uppercase">House Rules</h3>
-      <ul class="list-disc pl-5">
+    <section class="subsection">
+      <h3 class="h3">Bed Room</h3>
+      <ul class="list">
+        <li>We will leave empty spaces for you in the wardrobe (right side).</li>
+        <li>The thermostat for the bedroom is behind the wardrobe and is annoying to get to. We'll
+          leave it on for you if it's in the winter.</li>
+        <li>There are spare sheets and towels in the large drawer in the center section of the
+          wardrobe.</li>
+        <li>There's extra sheets and duvets for guests in the fabric boxes on the top of the middle
+          section of the wardrobe in case you need them.</li>
+        <li>Make sure the window is closed at all times to avoid the cats getting out. You can leave
+          it open at the top for ventilation if you want to.</li>
+      </ul>
+    </section>
+
+    <section class="subsection">
+      <h3 class="h3">Living/Dinning Room</h3>
+      <ul class="list">
+        <li>There's a yellow bird on the wall. It monitors the CO2 levels of the apartment. If it
+          dies, it might be a good idea to open a window. It's not urgent though. You'll be fine
+          even if the bird stays dead.</li>
+        <li>Feel free to use the desk. It's really easy to destroy things when moving the desk from
+          the standing to the sitting positions, so we'll leave it down and locked.</li>
+        <li>There's a little white sensor on the book shelf. Its a light, temperature, and movement
+          sensor. Not a camera.</li>
+      </ul>
+    </section>
+
+    <section class="subsection">
+      <h3 class="h3">Balcony</h3>
+      <ul class="list">
+        <li>Balconny is netted so the cats can't go into the neighbor's balcony.</li>
+        <li>The cats are allowed to go out under supervision.</li>
+      </ul>
+    </section>
+  </section>
+
+  <section class="section bg-slate-100" id="the-cats">
+    <h2 class="h2">The Cats</h2>
+
+    <section class="subsection">
+      <p class="mb-4">
+        Our cats are two sisters from the same litter from 2018. They get along well enough but
+        sometimes like to fight. If they do, it's usually Mochi who starts it. Please break it up.
+      </p>
+      <div class="carousel-container" style="scroll-snap-type: x mandatory;">
+        <div class="mr-4" style="scroll-snap-align: center;">
+          <div class="carousel-image-item">
+            <img class="w-[100%]"
+              src="https://catsitter-guide.s3.eu-north-1.amazonaws.com/IMG_6115.jpeg">
+          </div>
+          <div class="caption">Maki (Left) and Mochi (Right)</div>
+        </div>
+        <div class="mr-4" style="scroll-snap-align: center;">
+          <div class="carousel-image-item">
+            <img class="w-[100%]"
+              src="https://catsitter-guide.s3.eu-north-1.amazonaws.com/IMG_1636.jpeg">
+          </div>
+          <div class="caption">Maki (Left) and Mochi (Right)</div>
+        </div>
+        <div class="mr-4" style="scroll-snap-align: center;">
+          <div class="carousel-image-item">
+            <img class="w-[100%]"
+              src="https://catsitter-guide.s3.eu-north-1.amazonaws.com/DSC01678.jpeg">
+          </div>
+          <div class="caption">Maki</div>
+        </div>
+        <div class="mr-4" style="scroll-snap-align: center;">
+          <div class="carousel-image-item">
+            <img class="w-[100%]"
+              src="https://catsitter-guide.s3.eu-north-1.amazonaws.com/DSC01818.jpeg">
+          </div>
+          <div class="caption">Maki</div>
+        </div>
+        <div class="mr-4" style="scroll-snap-align: center;">
+          <div class="carousel-image-item">
+            <img class="w-[100%]"
+              src="https://catsitter-guide.s3.eu-north-1.amazonaws.com/IMG_7034.jpeg">
+          </div>
+          <div class="caption">Mochi</div>
+        </div>
+        <div class="mr-4" style="scroll-snap-align: center;">
+          <div class="carousel-image-item">
+            <img class="w-[100%]"
+              src="https://catsitter-guide.s3.eu-north-1.amazonaws.com/IMG_9671.jpeg">
+          </div>
+          <div class="caption">Mochi</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="subsection" id="personality">
+      <div class="side-by-side-container">
+        <div class="side-by-side-header">
+          <h3 class="h3">Personality</h3>
+          <form class="switch-bg">
+            <span>
+              <input type="radio" id="radio-personality-maki" name="radio-personality"
+                class="hidden peer" checked>
+              <label for="radio-personality-maki" class="switch-item">Maki</label>
+            </span>
+
+            <span>
+              <input type="radio" id="radio-personality-mochi" name="radio-personality"
+                class="hidden peer">
+              <label for="radio-personality-mochi" class="switch-item">Mochi</label>
+            </span>
+
+            <script>
+              document.querySelector('label[for="radio-personality-maki"]').addEventListener('click', function () {
+                document.getElementById('personality-maki').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+              });
+              document.querySelector('label[for="radio-personality-mochi"]').addEventListener('click', function () {
+                document.getElementById('personality-mochi').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+              });
+            </script>
+          </form>
+        </div>
+        <div class="side-by-side-content">
+          <div class="side-by-side-item" id="personality-maki">
+            <p>Cuddly, calm, and gentle. Maki can take a bit to warm up to
+              people, but she is very affectionate and loves attention when she gets to know you.
+              She prefers to be the one approaching you, not the other way round. If you enjoy
+              lap-cats, you are in luck, because once she warms up to you she will want to be on
+              your lap an awful lot! She’s really playful as well and loves to shuffle against the
+              side of our couch. You can also relax a lot more when Make is around food compared to
+              Mochi - sometimes she counter surfs but that's about it. But she is quite fussy with
+              the litter box. If it’s not clean she might go somewhere else!</p>
+          </div>
+          <div class="side-by-side-item" id="personality-mochi">
+            <p>Playful, SMART, and food obsessed. She WILL get into any
+              food you leave accessible to her, even if its inside a package or your bag. We
+              recommend to put Mochi in the bedroom when you’re cooking or even eating. Please don’t
+              let her eat any of your food either, we are trying to train her to not expect food
+              from people. Also, be careful when she gets very playful and starts rolling around on
+              the floor. If you pet her she can play very rough and bites hard. Just disengage and
+              play with her using a toy instead. Despite her quirks, she’s a very loving cat and
+              loves cuddles and attention. She likes to get pets on your lap, and when she’s in a
+              good mood she’ll often go to the kitchen and start rolling around the floor. This
+              means she’s happy and wants to get a bit of attention.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="subsection" id="food">
+      <div class="side-by-side-container">
+        <div class="side-by-side-header">
+          <h3 class="h3">Food</h3>
+          <form class="switch-bg">
+            <span>
+              <input type="radio" id="radio-food-maki" name="radio-food" class="hidden peer"
+                checked>
+              <label for="radio-food-maki" class="switch-item">Maki</label>
+            </span>
+
+            <span>
+              <input type="radio" id="radio-food-mochi" name="radio-food" class="hidden peer">
+              <label for="radio-food-mochi" class="switch-item">Mochi</label>
+            </span>
+
+            <script>
+              document.querySelector('label[for="radio-food-maki"]').addEventListener('click', function () {
+                document.getElementById('food-maki').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+              });
+              document.querySelector('label[for="radio-food-mochi"]').addEventListener('click', function () {
+                document.getElementById('food-mochi').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+              });
+            </script>
+          </form>
+        </div>
+        <div class="side-by-side-content">
+          <div class="side-by-side-item" id="food-maki">
+            <ul class="list">
+              <li>Eats in the bedroom by the drum kit.</li>
+              <li>70g of wet food per meal.</li>
+              <li>Gets easily nervous when others are nearby when she eats. Try to leave her alone
+                while she does.</li>
+              <li>Likes the large gray food puzzle for her dry food.</li>
+            </ul>
+          </div>
+          <div class="side-by-side-item" id="food-mochi">
+            <ul class="list">
+              <li>Eats by the front door.</li>
+              <li>80g of wet food per meal.</li>
+              <li>If you ask say "paw" before you put her plate down, she'll give it to you.</li>
+              <li>Likes the orange ball for her dry food. Make sure to leave
+                a hole thats barely large enough for the pellets to fit.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <ul class="list">
+        <li>Food (both wet and dry) is found in the cupboard above the freezer in the kitchen.</li>
+        <li>There's a scale next to the fridge you can use to weigh their food. If you put the empty
+          bowl on the scale without turning it on, it'll turn on by itself and tare to zero
+          automatically. Be fast cause the scale goes to sleep fairly quickly.</li>
+        <li>They eat wet food twice a day (once when we have lunch and once before we go to
+          sleep) and dry snacks once a day (when we have dinner).</li>
+        <li>To make things easier for you, serve both plates with food first, add water, take both
+          plates with you to the bedroom and put Maki's food down, then go next to the front door
+          and put Mochi's plate down. They'll know whats going on and follow you around accordingly.
+        </li>
+        <li>Please add a bit of warm water to their bowls when you feed them wet food. Enough to
+          almost fill the plate. We don’t have a separate water bowl so we give them their water
+          through their meals.</li>
+        <li>You can use the cylindrical Tupperware to store leftover wet food in the can. There may
+          already be some stored in this Tupperware in the fridge when you arrive.</li>
+        <li>It’s not so important when you give the dry food, as long as it’s in between the wet
+          food meals.</li>
+        <li>We will leave their food bowl where they normally eat so you know, and their food
+          puzzles on the kitchen counter so they're easy for you to find.</li>
+      </ul>
+    </section>
+
+    <section class="subsection">
+      <h3 class="h3">Exercise & Play</h3>
+      <ul class="list">
+        <li>Cat toys are found on top of the shelf above the TV.</li>
+        <li>Both cats love the wand toy with a worm on the end. There are extra worms in the blue
+          bag.</li>
+        <li>Please play with them whenever you can but don’t leave the toys out without watching
+          them because they will try to eat them.</li>
+      </ul>
+    </section>
+
+    <section class="subsection">
+      <h3 class="h3">Toilet & Grooming</h3>
+      <ul class="list">
+        <li>Both cats use the litter tray in the bathroom and the tray in the living room.</li>
+        <li>Both litter boxes need to be cleaned twice per day, ideally right before they eat.
+          It’s
+          very important to get everything out, especially the stuff that’s stuck on the sides.
+        </li>
+        <li>
+          We use clumping litter and throw the clumps into the <span
+            class="text-green-700 font-semibold">green</span> bin near the washing machine which
+          we
+          take out when full. It’s really important to keep on top of the box cleaning because
+          otherwise Maki might pee somewhere else! She is very sensitive to a dirty box.</li>
+      </ul>
+    </section>
+
+    <section class="subsection">
+      <h3 class="h3">Health</h3>
+
+      <ul class="list mb-4">
+        <li>No medications or allergies.</li>
+      </ul>
+
+      <div
+        class="bg-white rounded-3xl overflow-hidden shadow-md p-4 border-4 border-red-600 scroll-m-28 max-w-96"
+        id="emergency">
+        <h3 class="h3">Tierarztpraxis Dr. Peter Vogel</h3>
+        <ul class="list-inside mb-4">
+          <li class="mb-2">
+            <a href="tel:+493029776835">
+              <span>
+                <svg class="inline-block fill-gray-600" width="18px" height="18px"
+                  viewBox="0 0 24 24">
+                  <path
+                    d="M2.00589 4.54166C1.905 3.11236 3.11531 2 4.54522 2H7.60606C8.34006 2 9.00207 2.44226 9.28438 3.1212L10.5643 6.19946C10.8761 6.94932 10.6548 7.81544 10.0218 8.32292L9.22394 8.96254C8.86788 9.24798 8.74683 9.74018 8.95794 10.1448C10.0429 12.2241 11.6464 13.9888 13.5964 15.2667C14.008 15.5364 14.5517 15.4291 14.8588 15.0445L15.6902 14.003C16.1966 13.3687 17.0609 13.147 17.8092 13.4594L20.8811 14.742C21.5587 15.0249 22 15.6883 22 16.4238V19.5C22 20.9329 20.8489 22.0955 19.4226 21.9941C10.3021 21.3452 2.65247 13.7017 2.00589 4.54166Z" />
+                </svg>
+              </span>
+              <span>+493029776835</span>
+            </a>
+          </li>
+          <li class="mb-2">
+            <a href="https://maps.app.goo.gl/2MDfxwNeaGfBphus9">
+              🏥 Finowstraße 14, 10247 Berlin
+            </a>
+          </li>
+          <li>
+            <a href="http://www.drpetervogel.de/" target="_blank">
+              <span>
+                <svg class="inline-block fill-gray-600" width="18px" height="18px"
+                  viewBox="0 0 24 24">
+                  <path
+                    d="M15.3222 10.383C15.3796 10.9457 15.4125 11.4903 15.4125 12C15.4125 12.9541 15.2972 14.0315 15.1208 15.1208C14.0315 15.2972 12.9541 15.4125 12 15.4125C11.0502 15.4125 9.97313 15.2975 8.87911 15.1205C8.70281 14.0312 8.5875 12.954 8.5875 12C8.5875 11.4905 8.62039 10.9458 8.67789 10.383C9.82608 10.5668 10.9715 10.6875 12 10.6875C13.0286 10.6875 14.174 10.5668 15.3222 10.383Z" />
+                  <path
+                    d="M16.8752 10.0994C16.9462 10.7579 16.9875 11.399 16.9875 12C16.9875 12.8769 16.8997 13.8389 16.7599 14.8153C18.7425 14.4016 20.575 13.8731 21.5567 13.5722C21.8739 13.475 21.9986 13.4363 22.1658 13.3694C22.2494 13.336 22.326 13.302 22.4259 13.2543C22.4748 12.843 22.5 12.4244 22.5 12C22.5 10.878 22.324 9.79714 21.9982 8.78346L21.9133 8.81017C20.8868 9.12245 18.9652 9.6745 16.8752 10.0994Z" />
+                  <path
+                    d="M21.4017 7.31948C20.3698 7.63221 18.579 8.14039 16.6599 8.53603C16.2178 5.84926 15.443 3.16951 15.0702 1.95598C17.8422 2.80227 20.1273 4.76467 21.4017 7.31948Z" />
+                  <path
+                    d="M15.1117 8.82229C14.0253 8.99781 12.9513 9.1125 12 9.1125C11.0487 9.1125 9.97477 8.99781 8.88843 8.8223C9.30471 6.28005 10.0478 3.68306 10.4278 2.44333C10.525 2.12606 10.5637 2.00144 10.6306 1.83418C10.664 1.75062 10.698 1.67398 10.7457 1.57414C11.157 1.52518 11.5756 1.5 12 1.5C12.4434 1.5 12.8803 1.52748 13.3093 1.58083C13.3184 1.61564 13.3268 1.64679 13.3351 1.67626C13.3597 1.76333 13.3982 1.8857 13.4628 2.09104L13.4696 2.11261C13.7935 3.14223 14.6519 6.01401 15.1117 8.82229Z" />
+                  <path
+                    d="M7.34004 8.536C7.7801 5.86107 8.54986 3.19576 8.92192 1.98181L8.92983 1.95597C6.15777 2.80225 3.8727 4.76465 2.59835 7.31946C3.63018 7.63219 5.42095 8.14036 7.34004 8.536Z" />
+                  <path
+                    d="M2.00184 8.78345C1.67598 9.79714 1.5 10.878 1.5 12C1.5 12.4389 1.52693 12.8715 1.57923 13.2963L1.74471 13.3515L1.74603 13.3519L1.74765 13.3525L1.74879 13.3528C1.80205 13.3705 3.36305 13.886 5.41878 14.3975C5.99886 14.5418 6.61307 14.6844 7.24006 14.8151C7.10025 13.8388 7.0125 12.8769 7.0125 12C7.0125 11.3988 7.05374 10.7577 7.12472 10.0994C5.03428 9.67436 3.11218 9.12212 2.08597 8.80989L2.07883 8.80771L2.00184 8.78345Z" />
+                  <path
+                    d="M12 16.9875C12.8769 16.9875 13.8389 16.8997 14.8153 16.7599C14.4016 18.7425 13.8731 20.575 13.5722 21.5566C13.475 21.8739 13.4363 21.9985 13.3694 22.1658C13.336 22.2494 13.302 22.326 13.2543 22.4259C12.843 22.4748 12.4244 22.5 12 22.5C11.5756 22.5 11.157 22.4748 10.7457 22.4259C10.698 22.326 10.664 22.2494 10.6306 22.1658C10.5637 21.9986 10.525 21.8739 10.4278 21.5567C10.1269 20.5751 9.59846 18.7427 9.18478 16.7603C10.1579 16.8996 11.1201 16.9875 12 16.9875Z" />
+                  <path
+                    d="M5.0385 15.9259C3.73853 15.6024 2.63135 15.2775 1.95597 15.0702C2.97258 18.4002 5.59982 21.0274 8.92983 22.044L8.92192 22.0182C8.59705 20.9582 7.96897 18.7917 7.52191 16.4784C6.6525 16.3103 5.80722 16.1171 5.0385 15.9259Z" />
+                  <path
+                    d="M22.0182 15.0781C20.9582 15.403 18.7915 16.0311 16.4781 16.4781C16.0311 18.7915 15.403 20.9581 15.0781 22.0182L15.0702 22.044C18.4002 21.0274 21.0274 18.4002 22.044 15.0702L22.0182 15.0781Z" />
+                  <path
+                    d="M1.6103 13.323C1.64665 13.3277 1.67628 13.3327 1.68611 13.3349C1.69472 13.337 1.70821 13.3406 1.7131 13.3419L1.72391 13.345L1.72973 13.3468L1.73585 13.3487L1.74098 13.3503C1.7381 13.3494 1.67976 13.3348 1.6103 13.323Z" />
+                </svg>
+              </span>
+              <span>http://www.drpetervogel.de</span>
+            </a>
+          </li>
+        </ul>
+        <p>There are 2 folded backpacks to carry the cats in the middle section of the wardrobe in
+          case you need to take them anywhere.</p>
+      </div>
+    </section>
+  </section>
+
+  <section class="p-8 pt-6 scroll-mt-8" id="logistics">
+    <h2 class="h2">Logistics</h2>
+
+    <section class="subsection">
+      <h3 class="h3">House Rules</h3>
+      <ul class="list">
         <li>Please don't smoke inside.</li>
         <li>Feel free to invite friends over. The walls are super thick so you probably won't bother
           the neighbours.
@@ -35,9 +353,49 @@
       </ul>
     </section>
 
-    <section class="mb-4">
-      <h3 class="mb-1 text-sm font-semibold uppercase">Doors and Keys</h3>
-      <ul class="list-disc pl-5">
+    <section class="subsection">
+      <h3 class="h3">Special Considerations</h3>
+
+      <div class="carousel-container" style="scroll-snap-type: x mandatory;">
+        <div class="inline-block mr-4" style="scroll-snap-align: center;">
+          <div class="carousel-text-item bg-slate-50">
+            <h3 class="h3 text-gray-700">⛑️ First Aid Kit</h3>
+            <p class="text-gray-700 text-wrap">We have bandages, band aids and ibuprofen in the
+              top
+              cloth drawer of the set of three small drawers in the living room, behind the couch.
+            </p>
+          </div>
+        </div>
+        <div class="inline-block mr-4" style="scroll-snap-align: center;">
+          <div class="carousel-text-item bg-slate-50">
+            <h3 class="h3 text-gray-700">⚠️ Appliances</h3>
+            <p class="text-gray-700 text-wrap">We don't have a hair drier or coffee
+              machine.</p>
+          </div>
+        </div>
+        <div class="inline-block mr-4" style="scroll-snap-align: center;">
+          <div class="carousel-text-item bg-slate-50">
+            <span class="h3 text-gray-700">⚠️ Tatami Mats</span>
+            <p class="text-gray-700 text-wrap">The mats under the dinning table are made of straw
+              and are imposible to clean so please make sure you don't drop anything on them. And
+              if
+              Mochi starts scratching it, please stop her.</p>
+          </div>
+        </div>
+        <div class="inline-block mr-4" style="scroll-snap-align: center;">
+          <div class="carousel-text-item bg-slate-50">
+            <span class="h3 text-gray-700">⚠️ The Oven</span>
+            <p class="text-gray-700 text-wrap">Please do not let any food drop on the bottom of
+              the oven. It’s very hard to clean once it gets there. Use a tray, foil or baking
+              paper.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="subsection">
+      <h3 class="h3">Doors and Keys</h3>
+      <ul class="list">
         <li>The building, apartment, and trash room doors all unlock with the same key.</li>
         <li>Our front door closes by itself so make sure you always have the key with you when you
           go out.</li>
@@ -46,488 +404,217 @@
       </ul>
     </section>
 
-    <section class="mb-4">
-      <h3 class="mb-1 text-sm font-semibold uppercase">Activity and leisure equipment</h3>
-      <ul class="list-disc pl-5">
+    <section class="subsection">
+      <h3 class="h3">Activity and leisure equipment</h3>
+      <ul class="list">
         <li>We'll share the wifi with you over whatsapp.</li>
         <li>We have an apple TV with Netflix and Disney plus. You'll have to use the Apple TV remote
           to control it. It's a terrible remote, sry.</li>
+        <li>We also have a PS5, feel free to play anythign you like. Just make sure to start a new
+          save.</li>
+        <li>There's an electronic drum kit in the bedroom. We normally keep a rug under it to
+          protect the floor but maki likes to pee on it sometimes so we take it out whenever we
+          leave. Please don't use it as you'll damage the floor.</li>
       </ul>
     </section>
 
-    <section class="mb-4">
-      <h3 class="mb-1 text-sm font-semibold uppercase">Bed Room</h3>
-      <ul class="list-disc pl-5">
-        <li>We will leave empty spaces for you in the wardrobe (right door).</li>
-        <li>Make sure the window is closed at all times to avoid the cats getting out. You can leave
-          it open at the top for ventilation if you want to.</li>
+    <section class="subsection">
+      <h3 class="h3">Heating</h3>
+      <ul class="list mb-6">
+        <li>The apartment stays at about 19ºC with the heating off in the winter. You can turn it on
+          by rotating the dial next to the front door and in the bedroom next to the door.</li>
+        <li> We usually leave it at the 11 o'clock position.</li>
+        <li>We have underfloor heating so it might take up to 8 hours for the apartment to heat up,
+          so there is no point switching it off at night.</li>
+        <li>We have a thermometer above the tv if you're curious about the temperature inside.</li>
       </ul>
     </section>
 
-    <section class="mb-4">
-      <h3 class="mb-1 text-sm font-semibold uppercase">Living/Dinning Room</h3>
-      <ul class="list-disc pl-5">
-        <li>There's a yellow bird on the wall. It monitors the CO2 levels of the apartment. If it
-          dies, it might be a good idea to open a window. It's not urgent though, and you won't die
-          even if the bird stays dead.</li>
-        <li>Feel free to use the desk. It's really easy to destroy things when moving the desk from
-          the standing to the sitting positions, so we'll leave it down and locked.</li>
-      </ul>
-    </section>
-
-    <section class="mb-4">
-      <h3 class="mb-1 text-sm font-semibold uppercase">Balcony</h3>
-      <ul class="list-disc pl-5">
-        <li>Balconny is netted so the cats can't go into the neighbor's balcony.</li>
-        <li>The cats are allowed to go out under supervision.</li>
-      </ul>
-    </section>
-
-    <section class="mb-4">
-      <h3 class="mb-1 text-sm font-semibold uppercase">Heating</h3>
-      <ul class="list-disc pl-5 mb-6">
-        <li>The apartment stays at about 19ºC with the heating off in the winter so we usually don’t
-          turn on the heating. But if you want you can turn it on by rotating the dial next to the
-          front door and in the bedroom next to the door.</li>
-        <li>We have underfloor heating so it might take
-          up to 8 hours for the apartment to heat up, so there is no point switching it off at
-          night.</li>
-      </ul>
-      <div
-        class="flex items-stretch -ml-8 -mr-8 pl-8 pr-[50vw] pb-4 whitespace-nowrap overflow-x-auto"
-        style="scroll-snap-type: x mandatory;">
-        <div class="inline-block pr-4" style="scroll-snap-align: center;">
-          <div
-            class="w-[calc(100vw-4rem)] max-w-96 aspect-square rounded-3xl overflow-hidden shadow-md">
-            <img class="w-[100%]" src="https://placecats.com/288/288">
-          </div>
-          <div class="w-full pr-4 text-right text-sm font-semibold">Actively Heating</div>
-        </div>
-        <div class="inline-block pr-4" style="scroll-snap-align: center;">
-          <div
-            class="w-[calc(100vw-4rem)] max-w-96 aspect-square rounded-3xl overflow-hidden shadow-md">
-            <img class="w-[100%]" src="https://placecats.com/288/290">
-          </div>
-          <div class="w-full pr-4 text-right text-sm font-semibold">Temprature Reached</div>
-        </div>
-      </div>
-    </section>
-
-    <section class="mb-4">
-      <h3 class="mb-1 text-sm font-semibold uppercase">Cleaning</h3>
-      <ul class="list-disc pl-5">
+    <section class="subsection">
+      <h3 class="h3">Cleaning / Washing</h3>
+      <ul class="list">
+        <li>It gets dusty fairly quickly because of the cat litter and fur.</li>
+        <li>There's a feather duster and a rag to dust surfaces on the white kallax above the
+          washing machine.</li>
+        <li>You can use the vacuum cleaner (next to the washing machine) or the Roomba (on the
+          washing machine). When using the roomba, please make sure to empty it and remove hair
+          and
+          dust from the moving parts. The roomba cannot handle the rugs, so you'll need the vacuum
+          cleaner for that.</li>
+        <li>The washing machine is next to the bathroom. Feel free to use our detergent. We
+          usually
+          wash our clothes with the MISCHWÄCHE program.</li>
         <li>We recommend washing the sheets and duvet cover at least every other week. If you wash
           them in the morning they should be dry by the time you go to sleep at night.</li>
+        <li>There's a drying rack behind the door.</li>
         <li>Please use the squeegee (hanging in the shower) to wipe water off the glass panes
           after showering. Berlin has very hard water so calcium deposits build up fast if
           you don’t do this.</li>
         <li>If you see that water in the shower is not draining well, please clean the filter
           of the shower drain. You might have to do this every 2-3 weeks.</li>
-        <li>Please vacuum the apartment because it gets very dusty with
-          cat fur quite quickly. You can use the vacuum cleaner (next to the washing
-          machine) or the Roomba (on the washing machine). When using the roomba, please
-          make sure to empty it and remove hair and dust from the moving parts. The roomba cannot
-          handle the rugs, so you'll need the vacuum cleaner for that.</li>
-        <li>There's a feather duster and a rug to dust surfaces on the white kallax on top of the
-          washing machine.</li>
-        <li>Cleaning supplies for the kitchen are found in the kitchen cupboard under the sink.</li>
-        <li>Cleaning supplies for the bathroom and toilet are found in the bathroom cupboard.</li>
-        <li>Dishwasher soap, and other kitchen cleaning supplies can be found in the cupboard under
-          the sink.</li>
-        <li>Washing machine soap is kept in a container on top of the washing machine.</li>
+        <li>Feel free to use the dish washer as much as you like. We use P2 usually. Put detergent
+          in both areas (Yes, both. Just a little is enough), turn it on, use the arrows to choose
+          a
+          program, then close the dish washer. It'll start on its own. Usually takes 1-2 hours.
+        </li>
+        <li>Cleaning supplies for the kitchen are found in the kitchen under the sink.</li>
+        <li>Cleaning supplies for the bathroom and toilet are found in the bathroom cabinet.</li>
       </ul>
     </section>
 
-    <section class="mb-4">
-      <h3 class="mb-1 text-sm font-semibold uppercase">Trash and Recycling</h3>
-      <ul class="list-disc pl-5">
-        <li>Garbage bags are all kept in the cupboard under the sink.</li>
+    <section class="subsection">
+      <h3 class="h3">Trash and Recycling</h3>
+      <ul class="list">
+        <li>Trash bags are all kept in the kitchen under the sink.</li>
         <li>The trash cans in the apartment are color coded: <span
-            class="text-red-700 font-semibold">red</span> takes plastic and composite
-          packaging, and <span class="text-gray-700 font-semibold">grey</span> is for other rubbish.
-          There is a paper bin lined with a tote bag
-          we use for paper trash, and a special bio bag for food waste (it’s green- we’ll leave
-          one out for you). The cat litter goes in the <span
-            class="text-green-700 font-semibold">green</span> bin next to the washing machine. It’s
-          generally good to double bag this as the litter gets quite heavy.</li>
-        <li>Garbage can be taken out to the main apartment building garbage room, which is
-          accessible through the basement. The directions are: - Go to -1 floor with the elevator -
-          Exit the elevator and go to the car park (door on your left) - Walk straight from the car
-          park entrance
-          to the other side of the room. On your left enter the door labeled “Bossestrasse 6a”
-          - Go up the stairs to the ground floor - Exit to the inner garden of the apartment
-          block - Walk right for a few steps. There will be a door on your right which you
-          need your key to enter. The rubbish bins are also color coded, and you can check
-          the pictures they have to see what goes where. Yellow is for plastics and packaging,
-          black is for general rubbish, brown for food waste, and blue is generally for paper. Cat
-          litter goes in the black bin.</li>
-      </ul>
-    </section>
-
-    <section class="mb-4">
-      <h3 class="mb-2 text-sm font-semibold uppercase">Special Considerations</h3>
-
-      <div
-        class="flex items-stretch -ml-8 -mr-8 pl-8 pr-[50vw] pb-4 whitespace-nowrap overflow-x-auto"
-        style="scroll-snap-type: x mandatory;">
-        <div class="inline-block pr-4" style="scroll-snap-align: center;">
-          <div class="h-full w-72 p-4 rounded-3xl overflow-hidden shadow-md bg-slate-50">
-            <h3 class="mb-1 text-sm font-semibold uppercase text-gray-700">⛑️ First Aid Kit</h3>
-            <p class="text-gray-700 text-wrap">We have bandages, band aids and ibuprofen in the top
-              cloth drawer of the set of three small drawers in the living room, behind the couch.
-            </p>
-          </div>
-        </div>
-        <div class="inline-block pr-4" style="scroll-snap-align: center;">
-          <div class="h-full w-72 p-4 rounded-3xl overflow-hidden shadow-md bg-slate-50">
-            <h3 class="mb-1 text-sm font-semibold uppercase text-gray-700">⚠️ Appliances</h3>
-            <p class="text-gray-700 text-wrap">We don't have a hair drier or coffee
-              machine.</p>
-          </div>
-        </div>
-        <div class="inline-block pr-4" style="scroll-snap-align: center;">
-          <div class="h-full w-72 p-4 rounded-3xl overflow-hidden shadow-md bg-slate-50">
-            <span class="mb-1 text-sm font-semibold uppercase text-gray-700">⚠️ Tatami Mats</span>
-            <p class="text-gray-700 text-wrap">The mats under the dinning table are made of straw
-              and are imposible to clean so please make sure you don't drop anything on them. And if
-              Mochi starts scratching it, please stop her.</p>
-          </div>
-        </div>
-        <div class="inline-block" style="scroll-snap-align: center;">
-          <div class="h-full w-72 p-4 rounded-3xl overflow-hidden shadow-md bg-slate-50">
-            <span class="mb-1 text-sm font-semibold uppercase text-gray-700">⚠️ The Oven</span>
-            <p class="text-gray-700 text-wrap">Please do not let any food drop on the bottom of
-              the oven. It’s very hard to clean once it gets there. Use a tray, foil or baking
-              paper.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-  </section>
-
-  <section class="p-8 pt-9 bg-slate-100 scroll-mt-8" id="the-cats">
-    <h2 class="mb-4 text-4xl font-light">The Cats</h2>
-    <p class="mb-2">
-      Our cats are two sisters from the same litter from 2018.
-    </p>
-    <div class="flex items-stretch -ml-8 -mr-8 pl-8 pr-8 pb-4 whitespace-nowrap overflow-x-auto"
-      style="scroll-snap-type: x mandatory;">
-      <div class="mr-4" style="scroll-snap-align: center;">
-        <div
-          class="w-[calc(100vw-4rem)] max-w-96 aspect-square rounded-3xl overflow-hidden shadow-md">
-          <img class="w-[100%]" src="https://placecats.com/288/292">
-        </div>
-        <div class="w-full pr-4 text-right text-sm font-semibold">Maki</div>
-      </div>
-      <div class="mr-4" style="scroll-snap-align: center;">
-        <div
-          class="w-[calc(100vw-4rem)] max-w-96 aspect-square rounded-3xl overflow-hidden shadow-md">
-          <img class="w-[100%]" src="https://placecats.com/288/294">
-        </div>
-        <div class="w-full pr-4 text-right text-sm font-semibold">Mochi</div>
-      </div>
-      <div class="mr-4" style="scroll-snap-align: center;">
-        <div
-          class="w-[calc(100vw-4rem)] max-w-96 aspect-square rounded-3xl overflow-hidden shadow-md">
-          <img class="w-[100%]" src="https://placecats.com/288/296">
-        </div>
-        <div class="w-full pr-4 text-right text-sm font-semibold">Maki and Mochi</div>
-      </div>
-      <div class="mr-4" style="scroll-snap-align: center;">
-        <div
-          class="w-[calc(100vw-4rem)] max-w-96 aspect-square rounded-3xl overflow-hidden shadow-md">
-          <img class="w-[100%]" src="https://placecats.com/288/310">
-        </div>
-        <div class="w-full pr-4 text-right text-sm font-semibold">Mochi and Maki</div>
-      </div>
-    </div>
-
-    <section class="mb-4" id="personality">
-      <div
-        class="w-[100vw] h-[32rem] -ml-8 whitespace-nowrap overflow-hidden relative scroll-smooth"
-        style="scroll-snap-type: x mandatory;">
-        <div class="flex justify-between sticky z-10 left-0 width-[100vw] px-8">
-          <h3 class="mb-1 text-sm font-semibold uppercase">Personality</h3>
-          <form class="inline-flex text-sm font-semibold bg-slate-200 rounded-full overflow-hidden">
-            <span>
-              <input type="radio" id="radio-personality-maki" name="radio-personality" checked
-                class="hidden peer">
-              <label for="radio-personality-maki"
-                class="block rounded-full text-gray-900 p-1 px-4 peer-checked:shadow-md peer-checked:bg-slate-800 peer-checked:text-white">Maki</label>
-            </span>
-
-            <span>
-              <input type="radio" id="radio-personality-mochi" name="radio-personality"
-                class="hidden peer">
-              <label for="radio-personality-mochi"
-                class="block rounded-full text-gray-900 p-1 px-4 peer-checked:shadow-md peer-checked:bg-slate-800 peer-checked:text-white">Mochi</label>
-            </span>
-
-            <script>
-              document.querySelector('label[for="radio-personality-maki"]').addEventListener('click', function () {
-                document.getElementById('personality-maki').scrollIntoView({ behavior: 'smooth' });
-              });
-              document.querySelector('label[for="radio-personality-mochi"]').addEventListener('click', function () {
-                document.getElementById('personality-mochi').scrollIntoView({ behavior: 'smooth' });
-              });
-            </script>
-          </form>
-        </div>
-
-        <div id="personality-maki" class="absolute top-0 bottom-0 w-[100vw] pt-14 scroll-mt-[72px]"
-          style="scroll-snap-align: start;">
-          <div class="h-full px-8">
-            <p class="whitespace-normal">Cuddly, calm, and gentle. Maki can take a bit to warm up to
-              people, but she is very affectionate and loves
-              attention when she gets to know you. She prefers to be the one approaching you,
-              not the other way round :). She’s really playful as well and is much better behaved
-              than Mochi when it comes to food! But she is quite fussy with the litter box. If it’s
-              not clean she might not use it!</p>
-          </div>
-        </div>
-        <div id="personality-mochi"
-          class="absolute top-0 bottom-0 left-[100vw] w-[100vw] pt-14 scroll-mt-[72px]"
-          style="scroll-snap-align: start;">
-          <div class="h-full px-8">
-            <p class="whitespace-normal">Playful, SMART, and food obsessed. She WILL get into any
-              food you leave accessible to
-              her. Even if its inside your bag. Even food left in plastic bags is not safe. We
-              recommend to put Mochi in the bedroom when you’re cooking or even eating. Please don’t
-              let her eat any of your food either, we are trying to train her to not expect food
-              from
-              people. Also, be careful when she gets very playful and starts rolling around on the
-              floor. If you pet her she can play very rough and bites hard. Just disengage and play
-              with her using a toy instead. Despite her quirks, she’s a very loving cat and loves
-              cuddles and attention. She likes to get pets on your lap, and when she’s in a good
-              mood she’ll often go to the kitchen and start rolling around the floor. This means
-              she’s happy and wants to get a bit of attention! Proceed with caution.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="mb-4" id="food">
-      <div
-        class="w-[100vw] h-[14rem] -ml-8 whitespace-nowrap overflow-hidden relative scroll-smooth"
-        style="scroll-snap-type: x mandatory;">
-        <div class="sticky flex flex-col space-y-1 z-10 left-0 width-[100vw] px-8">
-          <div class="flex justify-between w-full">
-            <h3 class="text-sm font-semibold uppercase">Food</h3>
-            <form
-              class="inline-flex text-sm font-semibold bg-slate-200 rounded-full overflow-hidden">
-              <span>
-                <input type="radio" id="radio-food-maki" name="radio-food" checked
-                  class="hidden peer">
-                <label for="radio-food-maki"
-                  class="block rounded-full text-gray-900 p-1 px-4 peer-checked:shadow-md peer-checked:bg-slate-800 peer-checked:text-white">Maki</label>
-              </span>
-
-              <span>
-                <input type="radio" id="radio-food-mochi" name="radio-food" class="hidden peer">
-                <label for="radio-food-mochi"
-                  class="block rounded-full text-gray-900 p-1 px-4 peer-checked:shadow-md peer-checked:bg-slate-800 peer-checked:text-white">Mochi</label>
-              </span>
-
-              <script>
-                document.querySelector('label[for="radio-food-maki"]').addEventListener('click', function () {
-                  document.getElementById('food-maki').scrollIntoView({ behavior: 'smooth' });
-                });
-                document.querySelector('label[for="radio-food-mochi"]').addEventListener('click', function () {
-                  document.getElementById('food-mochi').scrollIntoView({ behavior: 'smooth' });
-                });
-              </script>
-            </form>
-          </div>
-        </div>
-
-        <div id="food-maki" class="absolute top-0 bottom-0 w-[100vw] pt-14 scroll-mt-[72px]"
-          style="scroll-snap-align: start;">
-          <ul class="block list-disc h-full px-12 whitespace-normal">
-            <li>Eats in the bedroom by the drum kit.</li>
-            <li>70g of wet food per meal.</li>
-            <li>Gets easily nervous when others are nearby when she eats. Try to leave her alone
-              while she does.</li>
-            <li>Likes the large gray food puzzle for her dry food.</li>
-          </ul>
-        </div>
-        <div id="food-mochi"
-          class="absolute top-0 bottom-0 left-[100vw] w-[100vw] pt-14 scroll-mt-[72px]"
-          style="scroll-snap-align: start;">
-          <ul class="block list-disc h-full px-12 whitespace-normal">
-            <li>Eats by the front door.</li>
-            <li>80g of wet food per meal.</li>
-            <li>If you ask say "paw" before you put her plate down, she'll give it to you.</li>
-            <li>Likes the orange ball for her dry food. Make sure to leave
-              a hole thats barely large enough for the pellets to fit.</li>
-          </ul>
-        </div>
-      </div>
-      <ul class="list-disc h-full px-4 whitespace-normal">
-        <li>Food (both wet and dry) is found in the cupboard above the freezer in the kitchen.
+            class="text-red-700 font-semibold">red</span> takes plastic and composite packaging,
+          and
+          <span class="text-gray-700 font-semibold">grey</span> is for other trash. There is a
+          paper
+          bin lined with a tote bag we use for paper trash, and a special bio bag for food waste
+          (it’s green- we’ll leave one out for you). The cat litter goes in the <span
+            class="text-green-700 font-semibold">green</span> bin next to the washing machine.
+          It’s
+          generally good to double bag this as the litter gets quite heavy.
         </li>
-        <li>They eat wet food twice a day (once when we have lunch and once before we go to
-          sleep) and dry snacks once a day (when we have dinner).</li>
-        <li>Please add a bit of warm water to their bowls when you feed them wet food. Enough to
-          almost fill the plate. We don’t have a separate water bowl so we give them their water
-          through their meals.</li>
-        <li>It’s not so important when you give the dry food, as long as it’s in between the wet
-          food meals.</li>
-        <li>You can use the cylindrical Tupperware to store leftover wet food in the can. There
-          may already be
-          some stored in this Tupperware in the fridge when you arrive.</li>
-        <li>We will place the food puzzles, the weighing scale, and their bowls on the kitchen
-          counter so it’s
-          easy for you to find.</li>
+        <li>Trash can be taken out to the building trash room, which is
+          accessible through the basement. To get there: go to floor -1, exit to the underground
+          car
+          park, walk straight to the other side of the room, on your left enter the door labeled
+          “Bossestrasse 6a”, go up the stairs to the ground floor, exit to the garden, and walk
+          right for a few steps. There will be a door on your right which you need your key to
+          enter. The trash cans are also color coded. You can check the pictures they have to see
+          what goes where but the classification goes as follows: Yellow is for plastics and
+          packaging, black is for general rubbish (restmull), brown for food waste, and blue is
+          generally for paper (the ones with a weird hamster). Cat litter goes in the black
+          (restmull) bin. Feel free to leave the glass in the apartment. Just wash it and we'll
+          take
+          it out when we're back.</li>
       </ul>
     </section>
 
-    <section class="mb-4">
-      <h3 class="mb-1 text-sm font-semibold uppercase">Exercise & Play</h3>
-      <ul class="list-disc pl-5">
-        <li>Cat toys are found on top of the shelf above the TV.</li>
-        <li>Both cats love the wand toy with a worm on the end. There are extra worms in the blue
-          bag.</li>
-        <li>Please play with them whenever you can but don’t leave the toys out without watching
-          them because they will try to eat them.</li>
+    <section class="subsection">
+      <h3 class="h3">Shopping</h3>
+      <ul class="list mb-4">
+        <li>Netto is the closes one, located on the ground floor of this building.</li>
+        <li>Liddl is slightly bigger and further away.</li>
+        <li>Edeka offers much more variety at higher prices.</li>
       </ul>
-    </section>
-
-    <section class="mb-4">
-      <h3 class="mb-1 text-sm font-semibold uppercase">Toilet & Grooming</h3>
-      <ul class="list-disc pl-5">
-        <li>Both cats use the litter tray in the bathroom and the tray in the living room.</li>
-        <li>Both litter boxes need to be cleaned twice per day, ideally right before they eat. It’s
-          very important to get everything out, especially the stuff that’s stuck on the sides.</li>
-        <li>
-          We use clumping litter and throw the clumps into the <span
-            class="text-green-700 font-semibold">green</span> bin near the washing machine which we
-          take out when full. It’s really important to keep on top of the box cleaning because
-          otherwise Maki might pee somewhere else! She is very sensitive to a dirty box.</li>
-      </ul>
-    </section>
-
-    <section class="mb-4">
-      <h3 class="mb-1 text-sm font-semibold uppercase">Health</h3>
-      <ul class="list-disc pl-5">
-        <li>No medications or allergies.</li>
-        <li><b>Vet:</b> Tierarztpraxis Dr. Peter Vogel, +49 302 9776835,
-          http://www.drpetervogel.de/
-        </li>
-      </ul>
-    </section>
-  </section>
-
-  <section class="p-8 pt-9 scroll-mt-8" id="shopping">
-    <h2 class="mb-4 text-4xl font-light">Shopping</h2>
-    <div
-      class="flex items-stretch -ml-8 -mr-8 pl-8 pr-[50vw] pb-4 whitespace-nowrap overflow-x-auto"
-      style="scroll-snap-type: x mandatory;">
-      <div class="inline-block pr-4" style="scroll-snap-align: center;">
-        <a href="https://maps.app.goo.gl/GmWWHx5ir2ReKpev5" target="_blank"
-          rel="noopener noreferrer"
-          class="block w-[calc(100vw-4rem)] max-w-96 aspect-square rounded-3xl overflow-hidden shadow-md">
-          <img class="w-[100%]"
-            src="https://catsitter-guide.s3.eu-north-1.amazonaws.com/Map+-+Ostkreuz-Home.jpg">
-        </a>
-        <div class="w-full pr-4 text-right text-sm font-semibold">Netto</div>
+      <div class="carousel-container" style="scroll-snap-type: x mandatory;">
+        <div class="inline-block mr-4" style="scroll-snap-align: center;">
+          <a href="https://maps.app.goo.gl/jewsqB7DCYDgaw1x7" target="_blank"
+            rel="noopener noreferrer" class="carousel-image-item">
+            <img class="w-[100%]"
+              src="https://catsitter-guide.s3.eu-north-1.amazonaws.com/Map+-+Netto.jpg">
+          </a>
+          <div class="caption">Netto</div>
+        </div>
+        <div class="inline-block mr-4" style="scroll-snap-align: center;">
+          <a href="https://maps.app.goo.gl/7YaCSsvKq2UsC5NX9" target="_blank"
+            rel="noopener noreferrer" class="carousel-image-item">
+            <img class="w-[100%]"
+              src="https://catsitter-guide.s3.eu-north-1.amazonaws.com/Map+-+Lidl.jpg">
+          </a>
+          <div class="caption">Lidl</div>
+        </div>
+        <div class="inline-block mr-4" style="scroll-snap-align: center;">
+          <a href="https://maps.app.goo.gl/uqGVRSDnC6RfdSrr7" target="_blank"
+            rel="noopener noreferrer" class="carousel-image-item">
+            <img class="w-[100%]"
+              src="https://catsitter-guide.s3.eu-north-1.amazonaws.com/Map+-+Edeka.jpg">
+          </a>
+          <div class="caption">Edeka</div>
+        </div>
       </div>
-      <div class="inline-block pr-4" style="scroll-snap-align: center;">
-        <a href="https://maps.app.goo.gl/oRgZjmTksHfrKafS7" target="_blank"
-          rel="noopener noreferrer"
-          class="block w-[calc(100vw-4rem)] max-w-96 aspect-square rounded-3xl overflow-hidden shadow-md">
-          <img class="w-[100%]"
-            src="https://catsitter-guide.s3.eu-north-1.amazonaws.com/Map+-+Treptowerpark-Home.jpg">
-        </a>
-        <div class="w-full pr-4 text-right text-sm font-semibold">Lidl</div>
-      </div>
-      <div class="inline-block pr-4" style="scroll-snap-align: center;">
-        <a href="https://maps.app.goo.gl/oRgZjmTksHfrKafS7" target="_blank"
-          rel="noopener noreferrer"
-          class="block w-[calc(100vw-4rem)] max-w-96 aspect-square rounded-3xl overflow-hidden shadow-md">
-          <img class="w-[100%]"
-            src="https://catsitter-guide.s3.eu-north-1.amazonaws.com/Map+-+Treptowerpark-Home.jpg">
-        </a>
-        <div class="w-full pr-4 text-right text-sm font-semibold">Edeka</div>
-      </div>
-    </div>
+    </section>
   </section>
 
   <section class="p-8 pt-9 bg-gray-100 scroll-mt-8" id="restaurants">
-    <h2 class="mb-4 text-4xl font-light">Restaurants</h2>
-    <section class="mb-4">
+    <h2 class="h2">Restaurants</h2>
+
+    <section class="subsection">
       <h3 class="mb-2 text-2xl font-light"">Kurhaus Korsakow</h3>
       <p>Great traditional german (Swabian) food with good service.</p>
     </section>
 
-    <section class=" mb-4">
-        <h3 class="mb-1 text-sm font-semibold uppercase">Ishin</h3>
+    <section class=" subsection">
+        <h3 class="h3">Ishin</h3>
         <p>Not a fancy place, but is still our favorite traditional sushi place in Berlin! Go on
           Wednesdays or Saturdays for Happy Hour deals.</p>
     </section>
 
-    <section class="mb-4">
-      <h3 class="mb-1 text-sm font-semibold uppercase">Hako Ramen</h3>
+    <section class="subsection">
+      <h3 class="h3">Hako Ramen</h3>
       <p>Delicious ramen with amazing hot plum wine.</p>
     </section>
 
-    <section class="mb-4">
-      <h3 class="mb-1 text-sm font-semibold uppercase">Iro Izakaya</h3>
+    <section class="subsection">
+      <h3 class="h3">Iro Izakaya</h3>
       <p>Japanese food with a great selection. Their Yakisoba is delicious! (Don’t go for
         ramen here though. Hako is better for that!).</p>
     </section>
 
-    <section class="mb-4">
-      <h3 class="mb-1 text-sm font-semibold uppercase">1990s Vegan Living</h3>
+    <section class="subsection">
+      <h3 class="h3">1990s Vegan Living</h3>
       <p>Delicious asian inspired vegan food. Great ambiance and good prices too. Its a must if
         you're after some filling vegan food to share with friends.</p>
     </section>
 
-    <section class="mb-4">
-      <h3 class="mb-1 text-sm font-semibold uppercase">Perbacco Ristorante & Pizzeria</h3>
+    <section class="subsection">
+      <h3 class="h3">Perbacco Ristorante & Pizzeria</h3>
       <p>Super super close by and really great traditional Italian pizza.</p>
     </section>
 
-    <section class="mb-4">
-      <h3 class="mb-1 text-sm font-semibold uppercase">Dalbhat</h3>
+    <section class="subsection">
+      <h3 class="h3">Dalbhat</h3>
       <p>It’s far but very worth the trip. Traditional Nepali cuisine. Better to book in
         advance.</p>
     </section>
 
-    <section class="mb-4">
-      <h3 class="mb-1 text-sm font-semibold uppercase">Brammibals</h3>
+    <section class="subsection">
+      <h3 class="h3">Brammibals</h3>
       <p>A bakery with fantastic vegan doughnuts.</p>
     </section>
   </section>
 
   <section class="p-8 pt-9 scroll-mt-8" id="how-to-get-here">
-    <h2 class="mb-4 text-4xl font-light">How to get Here</h2>
-    <p class="mb-2">The place is a 10 minute walk from either Ostkreuz or Treptower park station,
-      both easily accessible via the S-Bahn. The door bell name is Claudet Busta. We are on the
-      6th
-      floor.</p>
-    <p class="mb-6">Click on the maps bellow to navigate with google maps.</p>
-    <div
-      class="flex items-stretch -ml-8 -mr-8 pl-8 pr-[50vw] pb-4 whitespace-nowrap overflow-x-auto"
-      style="scroll-snap-type: x mandatory;">
-      <div class="inline-block pr-4" style="scroll-snap-align: center;">
-        <a href="https://maps.app.goo.gl/GmWWHx5ir2ReKpev5" target="_blank"
-          rel="noopener noreferrer"
-          class="block w-[calc(100vw-4rem)] max-w-96 aspect-square rounded-3xl overflow-hidden shadow-md">
-          <img class="w-[100%]"
-            src="https://catsitter-guide.s3.eu-north-1.amazonaws.com/Map+-+Ostkreuz-Home.jpg">
-        </a>
-        <div class="w-full pr-4 text-right text-sm font-semibold">From Ostkreuz</div>
+    <h2 class="h2">How to get Here</h2>
+
+    <section class="subsection">
+      <ul class="list mb-6">
+        <li>Corinthstrasse 38, 10245, Berlin, Germany</li>
+        <li>The door bell name is Claudet Busta, 6th floor.</li>
+        <li>The place is a 10 minute walk from either Ostkreuz or Treptower park station,
+          both easily accessible via the S-Bahn.</li>
+      </ul>
+      <p class="mb-2">Click on the maps bellow to navigate.</p>
+      <div class="carousel-container" style="scroll-snap-type: x mandatory;">
+        <div class="inline-block mr-4" style="scroll-snap-align: center;">
+          <a href="https://maps.app.goo.gl/GmWWHx5ir2ReKpev5" target="_blank"
+            rel="noopener noreferrer" class="carousel-image-item">
+            <img class="w-[100%]"
+              src="https://catsitter-guide.s3.eu-north-1.amazonaws.com/Map+-+Ostkreuz-Home.jpg">
+          </a>
+          <div class="caption">From Ostkreuz</div>
+        </div>
+        <div class="inline-block mr-4" style="scroll-snap-align: center;">
+          <a href="https://maps.app.goo.gl/oRgZjmTksHfrKafS7" target="_blank"
+            rel="noopener noreferrer" class="carousel-image-item">
+            <img class="w-[100%]"
+              src="https://catsitter-guide.s3.eu-north-1.amazonaws.com/Map+-+Treptowerpark-Home.jpg">
+          </a>
+          <div class="caption">From Treptowerpark</div>
+        </div>
+        <div class="inline-block mr-4" style="scroll-snap-align: center;">
+          <a href="https://maps.app.goo.gl/4FGTq2otxcCammkRA" target="_blank"
+            rel="noopener noreferrer" class="carousel-image-item">
+            <img class="w-[100%]"
+              src="https://catsitter-guide.s3.eu-north-1.amazonaws.com/Map+-+Home.jpg">
+          </a>
+          <div class="caption">From your Location</div>
+        </div>
       </div>
-      <div class="inline-block pr-4" style="scroll-snap-align: center;">
-        <a href="https://maps.app.goo.gl/oRgZjmTksHfrKafS7" target="_blank"
-          rel="noopener noreferrer"
-          class="block w-[calc(100vw-4rem)] max-w-96 aspect-square rounded-3xl overflow-hidden shadow-md">
-          <img class="w-[100%]"
-            src="https://catsitter-guide.s3.eu-north-1.amazonaws.com/Map+-+Treptowerpark-Home.jpg">
-        </a>
-        <div class="w-full pr-4 text-right text-sm font-semibold">From Treptowerpark</div>
-      </div>
-    </div>
+    </section>
   </section>
 </body>
 
